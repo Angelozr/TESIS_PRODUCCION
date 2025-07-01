@@ -1,27 +1,17 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run server\" \"npm run flutter\"",
-    "server": "node index.js",
-    "flutter": "cd ../frontend && flutter run -d chrome"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "bcryptjs": "^3.0.2",
+    "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "jsonwebtoken": "^9.0.2",
-    "knex": "^3.1.0",
-    "pg": "^8.16.0"
-  },
-  "devDependencies": {
-    "concurrently": "^9.1.2"
+    "pg": "^8.11.1"
   }
 }
